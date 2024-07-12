@@ -1,11 +1,13 @@
 # payment-api-webclient-exception-handling
 
+> #### 배경
+>
 > 본사 CRM에서는 전문통신 방식을 위해 기존 RestTemplate에 암호화/복호화를 쓰고 있었지만, 프레임워크를 새로 구축하면서 WebClient로 바꾸는 과정을 가졌다. </br>
 > 옛날 쇼핑몰에서 박효신 티켓 구매 후 결제 시, 타임아웃이 걸렸는지 결제 응답이 없어 곤란했던 적을 바탕으로 만들어보는 API <br>
 > WebClient와 최대한의 Exception handling (타임아웃)을 가진 결제 API 모색해보기<br>
 >
-> > #### 목표
-> >
+> #### 목표
+>
 > > 결제 프로세스를 이해하고 실제 예외 상황을 잘 처리 해보는 결제 API를 구축
 > > Spring 5.0 이후 부터는 spring에서 권고 하는 WebClient 모듈을 이해하고 응용해보기
 
